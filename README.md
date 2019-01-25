@@ -2,7 +2,7 @@
 
 ## Repository Links
 
-- [Webpage](https://github.com/Samanthgourineni/aboutme"My github profile")
-- [Source](https://samanthgourineni.github.io/aboutme"My source page")
+- [Webpage](https://github.com/Samanthgourineni/aboutme)
+- [Source](https://samanthgourineni.github.io/aboutme)
 
 ## Getting Started
