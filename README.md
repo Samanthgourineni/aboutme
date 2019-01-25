@@ -2,7 +2,7 @@
 
 ## Repository Links
 
-* [Webpage](https://samanthgourineni.github.io/aboutme)
+* [Webpage](https://github.com/Samanthgourineni/aboutme/edit/master/README.md)
 * [Source](https://github.com/Samanthgourineni/aboutme)
 
 ## About 
