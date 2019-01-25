@@ -19,7 +19,11 @@ This repository will be useful for exploring with the markdown and the Github.I 
 
 ## Recommended Resources
 
-1. [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+1. [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - This is Markdown-Cheatsheet which have all the contents and details of the Markdown.
+
+2.[w3shools](https://www.w3schools.com/)- W3shools is a very useful resource where we can explore and try HTML and CSS.
+
+3.[Learning GitHub](https://www.youtube.com/watch?v=eJojC3lSkwg) - Video helps us in Writing markdown with Github.
 
 ## Contributers
 Hi All,
