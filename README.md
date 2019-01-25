@@ -5,4 +5,6 @@
 * [Webpage](https://samanthgourineni.github.io/aboutme)
 * [Source](https://github.com/Samanthgourineni/aboutme)
 
-## Getting Started
+## About 
+
+![Image](https://github.com/Samanthgourineni/aboutme/blob/master/Orientation.jpg)
