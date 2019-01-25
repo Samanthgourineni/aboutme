@@ -18,7 +18,6 @@ This repository will be useful for exploring with the markdown and the Github.I 
 3.[Github](https://github.com/)- Github is a cloud repository, where we can store own repository and make changes as required.
 
 ## Recommended Resources
-
 1. [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - This is Markdown-Cheatsheet which have all the contents and details of the Markdown.
 
 2.[w3shools](https://www.w3schools.com/)- W3shools is a very useful resource where we can explore and try HTML and CSS.
