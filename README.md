@@ -10,7 +10,13 @@
 This repository will be useful for exploring with the markdown and the Github.I made few cahnges from the local machine using the TortoiseGit. 
 
 ## Recommended Tools
-![Notepad++](https://notepad-plus-plus.org/) - 
+
+1.[Notepad++](https://notepad-plus-plus.org/) - This tool will be helpful in editing the source code in the local machine.
+
+2.[TortosiseGit](https://tortoisegit.org/) - TortosieGit will help us to make changes in the local machine and then later we can push/pull/commit our new changes to cloud.
+
+3.[Github](https://github.com/)- Github is a cloud repository, where we can store own repository and make changes as required.
+
 ## Recommended Resources
 
 
