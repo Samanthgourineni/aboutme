@@ -2,13 +2,15 @@
 
 ## Repository Links
 
-* [Webpage](https://github.com/Samanthgourineni/aboutme/edit/master/README.md)
-* [Source](https://github.com/Samanthgourineni/aboutme)
+* [Webpage](https://samanthgourineni.github.io/aboutme)
+* [Source](https://github.com/Samanthgourineni/aboutme/edit/master/README.md)
+
 
 ## About 
+This repository will be useful for exploring with the markdown and the Github.I made few cahnges from the local machine using the TortoiseGit. 
 
 ## Recommended Tools
-
+![Notepad++](https://notepad-plus-plus.org/) - 
 ## Recommended Resources
 
 
@@ -16,4 +18,4 @@
 Hi All,
 
 I am Samanth Gourineni, Studying Applied Computer Science Major in NWSU. Below is the snap clicked on last day of my Orienation.
-![Image](https://cdn1.imggmi.com/uploads/2019/1/25/a07b04ae879652bfce5e4b2f2b7d8d60-full.jpg)
+![Image](https://github.com/Samanthgourineni/aboutme/blob/master/Orientation.jpg)
