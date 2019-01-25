@@ -19,9 +19,10 @@ This repository will be useful for exploring with the markdown and the Github.I 
 
 ## Recommended Resources
 
+1. [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Contributers
 Hi All,
 
 I am Samanth Gourineni, Studying Applied Computer Science Major in NWSU. Below is the snap clicked on last day of my Orienation.
-![Image](https://github.com/Samanthgourineni/aboutme/blob/master/Orientation.jpg)
+![Image](https://cdn1.imggmi.com/uploads/2019/1/25/a07b04ae879652bfce5e4b2f2b7d8d60-full.jpg)
