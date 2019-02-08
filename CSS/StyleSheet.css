@@ -1,0 +1,40 @@
+.background_image {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Main{
+    display:flex;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+hr{
+    border: 2px solid;
+}
+
+#hrid{
+    padding-top: 100px;
+    border: 2px solid;
+}
+
+.div_aside{
+    display: flex;
+}
+
+
+
+#section{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: black;
+    border-style: solid;
+    border-radius: 2em;
+    border-color: rgb(236, 229, 229);
+    color: white;
+    
+    }
