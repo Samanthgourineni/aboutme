@@ -26,17 +26,15 @@
   
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                       <a class="nav-link" href="index.html"> Home </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="Contact.html">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                       <a class="nav-link" href="Convertor.html">Convertor</a>
                     </li>
-                  </ul>
-  
                   <form class="form-inline mt-2 mt-md-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -45,34 +43,26 @@
                 </div>
               </nav>
 
-<header>
-    <h1>Currency convertor</h1>
-</header>
-
 <hr>
+<br>
+<br>
 
 
 <main >
+  <h2>Try the Dollar Conversion</h2>
+    <form >
+      Enter the Dollars you want to convert to INR : 
+      <input type="text" id="inputDollars"><br>
+     
+      <input type="button" style=" margin-left: 20%"value="Submit" onclick="DollarConverter()"><br>
+      <br>
+      <br>
 
-    <article class="col-sm-9">
-    <h2>Try Me!</h2>
 
-    <section class="col-md-9">
-        <h4>Enter the Dollars you want to convert to INR</h4>
-        <br>
-    <p>
-        <label>Dollars</label>
-        <input style="background-color: lightgrey" id="inputDollars" type="number" placeholder="Dollars"
-        oninput="DollarConverter(this.value)" onchange="DollarConverter(this.value)">
-    </p>
-    </section>
-
-    <section class="col-md-9">
-        <h4>Below is the INR conversions:</h4>
-        <p>INR: <span id="INR"></span></p>
-    </section>
-
-    </article>
+       INR conversions: 
+      <input type="text" id="output">
+      
+    </form>
 
 </main>
 
@@ -89,15 +79,22 @@
 
 <footer>
     
-        &copy; 2019 Samanth Gourineni. Background imgage copyright &copy; to Samanth
+        &copy; 2019 Samanth Gourineni. Background image copyright &copy; to Samanth
     
     </footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script>
     function DollarConverter(valNum) {
-      document.getElementById("INR").innerHTML=valNum*70;
-    }
+      const num=parseFloat(document.getElementById("inputDollars").value);
+if(num<0){
+  alert("The Dollar cannot be Negitive")
+}else{
+  document.getElementById("output").value=num*70;
+
+}
+      
+}
 </script>
 
 </body>
