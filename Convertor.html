@@ -1,47 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <style type="text/css">
-       .tg  {border-collapse:collapse;border-spacing:0;}
-       .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-       .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-       .tg .tg-s268{text-align:left}
-       .tg .tg-0lax{text-align:left;vertical-align:top}
-   </style>
-
+    <title>About Me</title>
     <link rel="stylesheet" href="CSS\StyleSheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="Function.js"></script>
+    <script src="loadDoc.js"></script>
+  </head>
 
-    <title>Interaction</title>
-</head>
 
-<body class = "background_image" id = "setting"  background="https://github.com/Samanthgourineni/aboutme/raw/master/Images/Image2.JPG">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#">Samanth</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                  
-                </button>
-  
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav mr-auto">
+  <body class = "background_image" background="https://github.com/Samanthgourineni/aboutme/raw/master/Images/Image1.JPG">
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">Samanth Gourineni</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
-                      <a class="nav-link" href="index.html"> Home </a>
+                        <a class="nav-link" href="index.html">Home </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Contact.html">Contact</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Contact.html">Contact</a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="Convertor.html">Convertor</a>
+                        <a class="nav-link" href="Convertor.html">Convertor<span class="sr-only">(current)</span></a>
+
                     </li>
-                  <form class="form-inline mt-2 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Qunit.html">Qunit</a>
+                        
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-  
-                </div>
-              </nav>
+                </form>
+            </div>
+        </nav>
+
+
 
 <hr>
 <br>
@@ -52,16 +57,16 @@
   <h2>Try the Dollar Conversion</h2>
     <form >
       Enter the Dollars you want to convert to INR : 
-      <input type="text" id="inputDollars"><br>
+      <input type="text" id="inputDollars"/><br>
      
-      <input type="button" style=" margin-left: 20%"value="Submit" onclick="DollarConverter()"><br>
+      <input type="button" style=" margin-left: 20%"value="Submit"onclick="DollarConverter()" onmouseover="loadDoc()" />
       <br>
       <br>
-
-
        INR conversions: 
       <input type="text" id="output">
-      
+      <br>
+
+<p id="test"></p>
     </form>
 
 </main>
@@ -84,18 +89,18 @@
     </footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script>
-    function DollarConverter(valNum) {
-      const num=parseFloat(document.getElementById("inputDollars").value);
-if(num<0){
-  alert("The Dollar cannot be Negitive")
-}else{
-  document.getElementById("output").value=num*70;
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster --> 
 
-}
-      
-}
-</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 
 </body>
 
