@@ -25,6 +25,6 @@ function mouse() {
                          this.responseText;
            }
     };
-    xhttp.open("GET", 'https://thesimpsonsquoteapi.glitch.me/quotes?count=4', true);
+    xhttp.open("GET", 'https://thesimpsonsquoteapi.glitch.me/quotes?count=1', true);
     xhttp.send();
 }
